@@ -1,0 +1,19 @@
+{
+  "source_repository": "https://github.com/rouhan28may-droid/hdl-labs.git",
+  "source_commit": "df8d6f66898a08df75cd2071ddac7bbba9ba9b16",
+  "source_folder": "projects/alu",
+  "extraction": "Source snapshot, not a new implementation or new verification run.",
+  "source_sha256": {
+    "docs/verification_plan.md": "6297181f5450ec0053cd03aca0ce6e564e56f9727315a99f171092c473872ed1",
+    "SOURCE_README.md": "b6bcbf50e734c783906209d7cc58fb2d1d486e59fa32fc9e5abc624b1c84e34a",
+    "reports/compile.log": "ce88a7e0d0d145bff0a26397048c174e0f8a6a1efd72382aa629d81341da4583",
+    "reports/README.md": "ccdaf75f775804c6ccfcc50403e848888714b37d8f3641542c80387479dd366f",
+    "reports/simulation.log": "b5337ec5919ad29a4a382b01d84bd45595f0a9ba935326f30bf7f411f3aad53e",
+    "rtl/design.sv": "a5c18735b69a2a265bae8e4566e7893bb29375cc7ff163500c51b1d14ab8e128",
+    "scripts/run_sim.ps1": "19521f71fd7dfd37ee48a7078b838f108277b32db393f3894f937db51f457608",
+    "sim/filelist.f": "5a9b0b8af8b3475ca84741fd64d0c78c990ba521d0323b7760a2284dfb048b8e",
+    "sim/run.sh": "ad12317c3b842510ce823238318aefcfc31a86aabaf608da01161ebf785a64fc",
+    "tb/tb_top.sv": "6ed633360e63b728ee893496312a113077879dbba638472a3068f040ebccda37",
+    "waves/README.md": "6d08b508a8afadffbd00b6cc401f977b87432d22ecda2064d6a2d3288999b944"
+  }
+}
