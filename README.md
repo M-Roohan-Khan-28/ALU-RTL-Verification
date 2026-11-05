@@ -1,14 +1,12 @@
-# Eight-operation ALU & verification
+# 8-Bit ALU RTL and Verification
 
-**Verilog / SystemVerilog · RTL and verification exercise**
+**SystemVerilog · Eight operations · Directed simulation**
 
-This standalone repository preserves the original `alu` exercise from my `hdl-labs` collection. Original RTL, testbench, simulator scripts and existing evidence are preserved byte-for-byte. This packaging step is not a new simulation or a claim of full protocol compliance.
+An 8-bit combinational arithmetic and logic unit with eight opcodes, result, carry, and zero outputs. The standalone project includes a deterministic self-checking testbench, an independent expected-result model, and reproducible ModelSim scripts.
 
-## Overview and original documentation
+The recorded portable regression passed **1,380 checks**. The original constrained-random environment is retained separately and requires a compatible verification licence. See [portable validation](docs/portable_validation.md) for the tested configuration and scope.
 
-Extract original RTL and testbench. Re-run arithmetic, logic, and boundary tests; record any randomization licence requirement.
-
-See [the original exercise README](SOURCE_README.md) for its existing specification, source layout and tool instructions. The text above identifies review goals; it does not claim that new enhancements have already been implemented.
+The original design, testbench, and historical evidence are preserved from the HDL collection. [Original source documentation](SOURCE_README.md) and the provenance section below identify that baseline.
 
 ## Run
 
@@ -42,4 +40,4 @@ Source commit: `df8d6f66898a08df75cd2071ddac7bbba9ba9b16`. Source path: `project
 
 ## Next engineering work
 
-Review the specification and implementation, run the supplied tests, add independently justified checks, and record actual results and known limitations. Waveform screenshots can be added later; no fabricated screenshots or coverage figures are needed.
+Planned verification extensions include exhaustive operand checks and coverage measurement in a compatible simulator. The recorded deterministic regression remains the current evidence.
