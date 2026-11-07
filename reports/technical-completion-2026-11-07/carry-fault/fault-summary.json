@@ -1,0 +1,9 @@
+﻿{
+    "source_revision":  "d2cb521cd367cb1b3ce6038459a9415546783e9c",
+    "source_sha256":  "A5C18735B69A2A265BAE8E4566E7893BB29375CC7FF163500C51B1D14AB8E128",
+    "mutant_sha256":  "C38E62880347DC22D93D8FC65E43567379A438C881EB9D452B277CAF6CB24C75",
+    "mutation":  "Suppress ADD carry when operand A is 0x81",
+    "wrapper_exit_code":  1,
+    "portable_pass":  true,
+    "exhaustive_mismatch":  true
+}

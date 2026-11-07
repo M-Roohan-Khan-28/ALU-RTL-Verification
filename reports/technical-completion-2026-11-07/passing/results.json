@@ -1,0 +1,79 @@
+{
+  "repository": "ALU-RTL-Verification",
+  "source_revision": "d2cb521cd367cb1b3ce6038459a9415546783e9c",
+  "source_dirty": false,
+  "sources": [
+    {
+      "path": "C:\\R_MIGRATION_BACKUP\\Roohan_GitHub_Launch_Kit\\Roohan_GitHub_Launch_Kit\\build\\tc\\alu\\rtl\\design.sv",
+      "sha256": "a5c18735b69a2a265bae8e4566e7893bb29375cc7ff163500c51b1d14ab8e128"
+    },
+    {
+      "path": "C:\\R_MIGRATION_BACKUP\\Roohan_GitHub_Launch_Kit\\Roohan_GitHub_Launch_Kit\\build\\tc\\alu\\tb\\tb_portable.sv",
+      "sha256": "724c8a437e7cc272f7cf5f29a1bb7fcc7ad060afc2094da3107061a1e25b0fbd"
+    },
+    {
+      "path": "C:\\R_MIGRATION_BACKUP\\Roohan_GitHub_Launch_Kit\\Roohan_GitHub_Launch_Kit\\build\\tc\\alu\\tb\\tb_exhaustive.sv",
+      "sha256": "0adf4650fcab6f20b98cbfefcbd4b6d2c05bd232f20237c7a8c124506891050a"
+    }
+  ],
+  "seed": "none; deterministic two-state enumeration",
+  "timeout_seconds_per_command": 120,
+  "simulations": [
+    {
+      "name": "portable",
+      "top": "tb_alu_portable",
+      "argv": [
+        "C:\\intelFPGA\\20.1\\modelsim_ase\\win32aloem\\vsim.exe",
+        "-c",
+        "-onfinish",
+        "exit",
+        "tb_alu_portable",
+        "-do",
+        "run -all; quit -code 0"
+      ],
+      "simulator_exit_code": 0,
+      "status": "PASS",
+      "marker": "PORTABLE_TEST_PASS ALU checks=1380"
+    },
+    {
+      "name": "exhaustive",
+      "top": "tb_alu_exhaustive",
+      "argv": [
+        "C:\\intelFPGA\\20.1\\modelsim_ase\\win32aloem\\vsim.exe",
+        "-c",
+        "-onfinish",
+        "exit",
+        "tb_alu_exhaustive",
+        "-do",
+        "run -all; quit -code 0"
+      ],
+      "simulator_exit_code": 0,
+      "status": "PASS",
+      "marker": "ALU_EXHAUSTIVE_PASS tuples=524288 directed=254 identities=1792 comparisons=1579002"
+    },
+    {
+      "name": "wave",
+      "top": "tb_alu_exhaustive",
+      "argv": [
+        "C:\\intelFPGA\\20.1\\modelsim_ase\\win32aloem\\vsim.exe",
+        "-c",
+        "-onfinish",
+        "exit",
+        "tb_alu_exhaustive",
+        "+WAVE_ONLY",
+        "-do",
+        "vcd file alu-directed.vcd; vcd add /tb_alu_exhaustive/a; vcd add /tb_alu_exhaustive/b; vcd add /tb_alu_exhaustive/op; vcd add /tb_alu_exhaustive/y; vcd add /tb_alu_exhaustive/carry; vcd add /tb_alu_exhaustive/zero; run -all; quit -code 0"
+      ],
+      "simulator_exit_code": 0,
+      "status": "PASS",
+      "marker": "ALU_WAVE_PASS directed=14 comparisons=42"
+    }
+  ],
+  "overall": "PASS",
+  "simulator_version": "Model Technology ModelSim - INTEL FPGA STARTER EDITION vsim 2020.1 Simulator 2020.02 Feb 28 2020",
+  "waveform": {
+    "path": "C:\\R_MIGRATION_BACKUP\\Roohan_GitHub_Launch_Kit\\Roohan_GitHub_Launch_Kit\\build\\test-runs\\tc-alu-committed-2026-11-07\\alu-directed.vcd",
+    "sha256": "b660886494af3a9fe257945b6defa212294a25c79b38c321fb081a7fcc6460fd"
+  },
+  "elapsed_seconds": 4.86
+}

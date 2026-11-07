@@ -1,0 +1,16 @@
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -onfinish exit tb_alu_exhaustive -do "run -all; quit -code 0" 
+# Start time: 21:21:25 on Nov 07,2026
+# Loading sv_std.std
+# Loading work.tb_alu_exhaustive
+# Loading work.alu
+# run -all
+# ** Fatal: ALU_EXHAUSTIVE_MISMATCH exhaustive op=0 a=81 b=7f expected=00/1/1 observed=00/0/1
+#    Time: 33166 ns  Scope: tb_alu_exhaustive.check_exact File: C:/R_MIGRATION_BACKUP/Roohan_GitHub_Launch_Kit/Roohan_GitHub_Launch_Kit/build/tc/alu/tb/tb_exhaustive.sv Line: 37
+# ** Note: $finish    : C:/R_MIGRATION_BACKUP/Roohan_GitHub_Launch_Kit/Roohan_GitHub_Launch_Kit/build/tc/alu/tb/tb_exhaustive.sv(37)
+#    Time: 33166 ns  Iteration: 0  Instance: /tb_alu_exhaustive
+# End time: 21:21:26 on Nov 07,2026, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0

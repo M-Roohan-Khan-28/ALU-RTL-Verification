@@ -1,0 +1,22 @@
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -onfinish exit tb_alu_exhaustive "+WAVE_ONLY" -do "vcd file alu-directed.vcd; vcd add /tb_alu_exhaustive/a; vcd add /tb_alu_exhaustive/b; vcd add /tb_alu_exhaustive/op; vcd add /tb_alu_exhaustive/y; vcd add /tb_alu_exhaustive/carry; vcd add /tb_alu_exhaustive/zero; run -all; quit -code 0" 
+# Start time: 21:21:07 on Nov 07,2026
+# Loading sv_std.std
+# Loading work.tb_alu_exhaustive
+# Loading work.alu
+# vcd file alu-directed.vcd
+#  vcd add /tb_alu_exhaustive/a
+#  vcd add /tb_alu_exhaustive/b
+#  vcd add /tb_alu_exhaustive/op
+#  vcd add /tb_alu_exhaustive/y
+#  vcd add /tb_alu_exhaustive/carry
+#  vcd add /tb_alu_exhaustive/zero
+#  run -all
+# ALU_WAVE_PASS directed=14 comparisons=42
+# ** Note: $finish    : C:/R_MIGRATION_BACKUP/Roohan_GitHub_Launch_Kit/Roohan_GitHub_Launch_Kit/build/tc/alu/tb/tb_exhaustive.sv(67)
+#    Time: 14 ns  Iteration: 0  Instance: /tb_alu_exhaustive
+# End time: 21:21:08 on Nov 07,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
