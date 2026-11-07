@@ -1,0 +1,222 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="931" viewBox="0 0 1440 931">
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<style>text{font-family:DejaVu Sans,Arial,sans-serif} .signal{font-family:DejaVu Sans Mono,monospace;font-size:13px} .small{font-size:12px;fill:#475569}</style>
+<text x="26" y="31" font-size="21" fill="#0f172a">Measured ALU directed vectors</text>
+<text x="26" y="54" font-size="13" fill="#92400e">VCD TRACE — check the accompanying simulation result</text>
+<text x="26" y="76" class="small">Time in VCD ticks; 1 tick = 1ps. Same-timestamp changes display their final value.</text>
+<path d="M370.00,105 V864" stroke="#dbe3ed"/>
+<text x="370.00" y="99" text-anchor="middle" class="small">0</text>
+<path d="M496.25,105 V864" stroke="#dbe3ed"/>
+<text x="496.25" y="99" text-anchor="middle" class="small">1625</text>
+<path d="M622.50,105 V864" stroke="#dbe3ed"/>
+<text x="622.50" y="99" text-anchor="middle" class="small">3250</text>
+<path d="M748.75,105 V864" stroke="#dbe3ed"/>
+<text x="748.75" y="99" text-anchor="middle" class="small">4875</text>
+<path d="M875.00,105 V864" stroke="#dbe3ed"/>
+<text x="875.00" y="99" text-anchor="middle" class="small">6500</text>
+<path d="M1001.25,105 V864" stroke="#dbe3ed"/>
+<text x="1001.25" y="99" text-anchor="middle" class="small">8125</text>
+<path d="M1127.50,105 V864" stroke="#dbe3ed"/>
+<text x="1127.50" y="99" text-anchor="middle" class="small">9750</text>
+<path d="M1253.75,105 V864" stroke="#dbe3ed"/>
+<text x="1253.75" y="99" text-anchor="middle" class="small">11375</text>
+<path d="M1380.00,105 V864" stroke="#dbe3ed"/>
+<text x="1380.00" y="99" text-anchor="middle" class="small">13000</text>
+<text x="26" y="135" class="signal"><title>tb_alu_exhaustive.a</title>tb_alu_exhaustive.a</text>
+<text x="26" y="151" class="small">8 bit [7:0]</text>
+<polygon points="370.00,136 374.00,122 987.54,122 991.54,136 987.54,150 374.00,150" fill="#fff" stroke="#0369a1" stroke-width="1.5"><title>10100101</title></polygon>
+<text x="680.77" y="141" text-anchor="middle" class="signal" fill="#0369a1">0xA5</text>
+<polygon points="991.54,136 995.54,122 1142.92,122 1146.92,136 1142.92,150 995.54,150" fill="#fff" stroke="#0369a1" stroke-width="1.5"><title>11111111</title></polygon>
+<text x="1069.23" y="141" text-anchor="middle" class="signal" fill="#0369a1">0xFF</text>
+<polygon points="1146.92,136 1150.92,122 1220.62,122 1224.62,136 1220.62,150 1150.92,150" fill="#fff" stroke="#0369a1" stroke-width="1.5"><title>00000000</title></polygon>
+<text x="1185.77" y="141" text-anchor="middle" class="signal" fill="#0369a1">0x00</text>
+<polygon points="1224.62,136 1228.62,122 1298.31,122 1302.31,136 1298.31,150 1228.62,150" fill="#fff" stroke="#0369a1" stroke-width="1.5"><title>01010101</title></polygon>
+<text x="1263.46" y="141" text-anchor="middle" class="signal" fill="#0369a1">0x55</text>
+<polygon points="1302.31,136 1306.31,122 1376.00,122 1380.00,136 1376.00,150 1306.31,150" fill="#fff" stroke="#0369a1" stroke-width="1.5"><title>01111111</title></polygon>
+<text x="1341.15" y="141" text-anchor="middle" class="signal" fill="#0369a1">0x7F</text>
+<path d="M26,162 H1408" stroke="#e2e8f0"/>
+<text x="26" y="192" class="signal"><title>tb_alu_exhaustive.b</title>tb_alu_exhaustive.b</text>
+<text x="26" y="208" class="small">8 bit [7:0]</text>
+<polygon points="370.00,193 374.00,179 987.54,179 991.54,193 987.54,207 374.00,207" fill="#fff" stroke="#0369a1" stroke-width="1.5"><title>00111100</title></polygon>
+<text x="680.77" y="198" text-anchor="middle" class="signal" fill="#0369a1">0x3C</text>
+<polygon points="991.54,193 995.54,179 1065.23,179 1069.23,193 1065.23,207 995.54,207" fill="#fff" stroke="#0369a1" stroke-width="1.5"><title>00000001</title></polygon>
+<text x="1030.38" y="198" text-anchor="middle" class="signal" fill="#0369a1">0x01</text>
+<polygon points="1069.23,193 1073.23,179 1142.92,179 1146.92,193 1142.92,207 1073.23,207" fill="#fff" stroke="#0369a1" stroke-width="1.5"><title>11111111</title></polygon>
+<text x="1108.08" y="198" text-anchor="middle" class="signal" fill="#0369a1">0xFF</text>
+<polygon points="1146.92,193 1150.92,179 1220.62,179 1224.62,193 1220.62,207 1150.92,207" fill="#fff" stroke="#0369a1" stroke-width="1.5"><title>00000001</title></polygon>
+<text x="1185.77" y="198" text-anchor="middle" class="signal" fill="#0369a1">0x01</text>
+<polygon points="1224.62,193 1228.62,179 1298.31,179 1302.31,193 1298.31,207 1228.62,207" fill="#fff" stroke="#0369a1" stroke-width="1.5"><title>01010101</title></polygon>
+<text x="1263.46" y="198" text-anchor="middle" class="signal" fill="#0369a1">0x55</text>
+<polygon points="1302.31,193 1306.31,179 1376.00,179 1380.00,193 1376.00,207 1306.31,207" fill="#fff" stroke="#0369a1" stroke-width="1.5"><title>00000001</title></polygon>
+<text x="1341.15" y="198" text-anchor="middle" class="signal" fill="#0369a1">0x01</text>
+<path d="M26,219 H1408" stroke="#e2e8f0"/>
+<text x="26" y="249" class="signal"><title>tb_alu_exhaustive.op</title>tb_alu_exhaustive.op</text>
+<text x="26" y="265" class="small">3 bit [2:0]</text>
+<polygon points="370.00,250 374.00,236 443.69,236 447.69,250 443.69,264 374.00,264" fill="#fff" stroke="#0369a1" stroke-width="1.5"><title>000</title></polygon>
+<text x="408.85" y="255" text-anchor="middle" class="signal" fill="#0369a1">0x0</text>
+<polygon points="447.69,250 451.69,236 521.38,236 525.38,250 521.38,264 451.69,264" fill="#fff" stroke="#0369a1" stroke-width="1.5"><title>001</title></polygon>
+<text x="486.54" y="255" text-anchor="middle" class="signal" fill="#0369a1">0x1</text>
+<polygon points="525.38,250 529.38,236 599.08,236 603.08,250 599.08,264 529.38,264" fill="#fff" stroke="#0369a1" stroke-width="1.5"><title>010</title></polygon>
+<text x="564.23" y="255" text-anchor="middle" class="signal" fill="#0369a1">0x2</text>
+<polygon points="603.08,250 607.08,236 676.77,236 680.77,250 676.77,264 607.08,264" fill="#fff" stroke="#0369a1" stroke-width="1.5"><title>011</title></polygon>
+<text x="641.92" y="255" text-anchor="middle" class="signal" fill="#0369a1">0x3</text>
+<polygon points="680.77,250 684.77,236 754.46,236 758.46,250 754.46,264 684.77,264" fill="#fff" stroke="#0369a1" stroke-width="1.5"><title>100</title></polygon>
+<text x="719.62" y="255" text-anchor="middle" class="signal" fill="#0369a1">0x4</text>
+<polygon points="758.46,250 762.46,236 832.15,236 836.15,250 832.15,264 762.46,264" fill="#fff" stroke="#0369a1" stroke-width="1.5"><title>101</title></polygon>
+<text x="797.31" y="255" text-anchor="middle" class="signal" fill="#0369a1">0x5</text>
+<polygon points="836.15,250 840.15,236 909.85,236 913.85,250 909.85,264 840.15,264" fill="#fff" stroke="#0369a1" stroke-width="1.5"><title>110</title></polygon>
+<text x="875.00" y="255" text-anchor="middle" class="signal" fill="#0369a1">0x6</text>
+<polygon points="913.85,250 917.85,236 987.54,236 991.54,250 987.54,264 917.85,264" fill="#fff" stroke="#0369a1" stroke-width="1.5"><title>111</title></polygon>
+<text x="952.69" y="255" text-anchor="middle" class="signal" fill="#0369a1">0x7</text>
+<polygon points="991.54,250 995.54,236 1142.92,236 1146.92,250 1142.92,264 995.54,264" fill="#fff" stroke="#0369a1" stroke-width="1.5"><title>000</title></polygon>
+<text x="1069.23" y="255" text-anchor="middle" class="signal" fill="#0369a1">0x0</text>
+<polygon points="1146.92,250 1150.92,236 1298.31,236 1302.31,250 1298.31,264 1150.92,264" fill="#fff" stroke="#0369a1" stroke-width="1.5"><title>001</title></polygon>
+<text x="1224.62" y="255" text-anchor="middle" class="signal" fill="#0369a1">0x1</text>
+<polygon points="1302.31,250 1306.31,236 1376.00,236 1380.00,250 1376.00,264 1306.31,264" fill="#fff" stroke="#0369a1" stroke-width="1.5"><title>000</title></polygon>
+<text x="1341.15" y="255" text-anchor="middle" class="signal" fill="#0369a1">0x0</text>
+<path d="M26,276 H1408" stroke="#e2e8f0"/>
+<text x="26" y="306" class="signal"><title>tb_alu_exhaustive.y[7]</title>tb_alu_exhaustive.y[7]</text>
+<text x="26" y="322" class="small">1 bit</text>
+<path d="M370.00,293 H447.69" stroke="#0369a1" stroke-width="2"/>
+<path d="M447.69,293 V321" stroke="#0369a1" stroke-width="2"/>
+<path d="M447.69,321 H603.08" stroke="#0369a1" stroke-width="2"/>
+<path d="M603.08,321 V293" stroke="#0369a1" stroke-width="2"/>
+<path d="M603.08,293 H758.46" stroke="#0369a1" stroke-width="2"/>
+<path d="M758.46,293 V321" stroke="#0369a1" stroke-width="2"/>
+<path d="M758.46,321 H1069.23" stroke="#0369a1" stroke-width="2"/>
+<path d="M1069.23,321 V293" stroke="#0369a1" stroke-width="2"/>
+<path d="M1069.23,293 H1224.62" stroke="#0369a1" stroke-width="2"/>
+<path d="M1224.62,293 V321" stroke="#0369a1" stroke-width="2"/>
+<path d="M1224.62,321 H1302.31" stroke="#0369a1" stroke-width="2"/>
+<path d="M1302.31,321 V293" stroke="#0369a1" stroke-width="2"/>
+<path d="M1302.31,293 H1380.00" stroke="#0369a1" stroke-width="2"/>
+<path d="M26,333 H1408" stroke="#e2e8f0"/>
+<text x="26" y="363" class="signal"><title>tb_alu_exhaustive.y[6]</title>tb_alu_exhaustive.y[6]</text>
+<text x="26" y="379" class="small">1 bit</text>
+<path d="M370.00,350 H525.38" stroke="#0369a1" stroke-width="2"/>
+<path d="M525.38,350 V378" stroke="#0369a1" stroke-width="2"/>
+<path d="M525.38,378 H758.46" stroke="#0369a1" stroke-width="2"/>
+<path d="M758.46,378 V350" stroke="#0369a1" stroke-width="2"/>
+<path d="M758.46,350 H836.15" stroke="#0369a1" stroke-width="2"/>
+<path d="M836.15,350 V378" stroke="#0369a1" stroke-width="2"/>
+<path d="M836.15,378 H913.85" stroke="#0369a1" stroke-width="2"/>
+<path d="M913.85,378 V350" stroke="#0369a1" stroke-width="2"/>
+<path d="M913.85,350 H991.54" stroke="#0369a1" stroke-width="2"/>
+<path d="M991.54,350 V378" stroke="#0369a1" stroke-width="2"/>
+<path d="M991.54,378 H1069.23" stroke="#0369a1" stroke-width="2"/>
+<path d="M1069.23,378 V350" stroke="#0369a1" stroke-width="2"/>
+<path d="M1069.23,350 H1224.62" stroke="#0369a1" stroke-width="2"/>
+<path d="M1224.62,350 V378" stroke="#0369a1" stroke-width="2"/>
+<path d="M1224.62,378 H1380.00" stroke="#0369a1" stroke-width="2"/>
+<path d="M26,390 H1408" stroke="#e2e8f0"/>
+<text x="26" y="420" class="signal"><title>tb_alu_exhaustive.y[5]</title>tb_alu_exhaustive.y[5]</text>
+<text x="26" y="436" class="small">1 bit</text>
+<path d="M370.00,407 H680.77" stroke="#0369a1" stroke-width="2"/>
+<path d="M680.77,407 V435" stroke="#0369a1" stroke-width="2"/>
+<path d="M680.77,435 H913.85" stroke="#0369a1" stroke-width="2"/>
+<path d="M913.85,435 V407" stroke="#0369a1" stroke-width="2"/>
+<path d="M913.85,407 H991.54" stroke="#0369a1" stroke-width="2"/>
+<path d="M991.54,407 V435" stroke="#0369a1" stroke-width="2"/>
+<path d="M991.54,435 H1069.23" stroke="#0369a1" stroke-width="2"/>
+<path d="M1069.23,435 V407" stroke="#0369a1" stroke-width="2"/>
+<path d="M1069.23,407 H1224.62" stroke="#0369a1" stroke-width="2"/>
+<path d="M1224.62,407 V435" stroke="#0369a1" stroke-width="2"/>
+<path d="M1224.62,435 H1380.00" stroke="#0369a1" stroke-width="2"/>
+<path d="M26,447 H1408" stroke="#e2e8f0"/>
+<text x="26" y="477" class="signal"><title>tb_alu_exhaustive.y[4]</title>tb_alu_exhaustive.y[4]</text>
+<text x="26" y="493" class="small">1 bit</text>
+<path d="M370.00,492 H603.08" stroke="#0369a1" stroke-width="2"/>
+<path d="M603.08,492 V464" stroke="#0369a1" stroke-width="2"/>
+<path d="M603.08,464 H836.15" stroke="#0369a1" stroke-width="2"/>
+<path d="M836.15,464 V492" stroke="#0369a1" stroke-width="2"/>
+<path d="M836.15,492 H1069.23" stroke="#0369a1" stroke-width="2"/>
+<path d="M1069.23,492 V464" stroke="#0369a1" stroke-width="2"/>
+<path d="M1069.23,464 H1224.62" stroke="#0369a1" stroke-width="2"/>
+<path d="M1224.62,464 V492" stroke="#0369a1" stroke-width="2"/>
+<path d="M1224.62,492 H1380.00" stroke="#0369a1" stroke-width="2"/>
+<path d="M26,504 H1408" stroke="#e2e8f0"/>
+<text x="26" y="534" class="signal"><title>tb_alu_exhaustive.y[3]</title>tb_alu_exhaustive.y[3]</text>
+<text x="26" y="550" class="small">1 bit</text>
+<path d="M370.00,549 H447.69" stroke="#0369a1" stroke-width="2"/>
+<path d="M447.69,549 V521" stroke="#0369a1" stroke-width="2"/>
+<path d="M447.69,521 H525.38" stroke="#0369a1" stroke-width="2"/>
+<path d="M525.38,521 V549" stroke="#0369a1" stroke-width="2"/>
+<path d="M525.38,549 H603.08" stroke="#0369a1" stroke-width="2"/>
+<path d="M603.08,549 V521" stroke="#0369a1" stroke-width="2"/>
+<path d="M603.08,521 H758.46" stroke="#0369a1" stroke-width="2"/>
+<path d="M758.46,521 V549" stroke="#0369a1" stroke-width="2"/>
+<path d="M758.46,549 H836.15" stroke="#0369a1" stroke-width="2"/>
+<path d="M836.15,549 V521" stroke="#0369a1" stroke-width="2"/>
+<path d="M836.15,521 H913.85" stroke="#0369a1" stroke-width="2"/>
+<path d="M913.85,521 V549" stroke="#0369a1" stroke-width="2"/>
+<path d="M913.85,549 H1069.23" stroke="#0369a1" stroke-width="2"/>
+<path d="M1069.23,549 V521" stroke="#0369a1" stroke-width="2"/>
+<path d="M1069.23,521 H1224.62" stroke="#0369a1" stroke-width="2"/>
+<path d="M1224.62,521 V549" stroke="#0369a1" stroke-width="2"/>
+<path d="M1224.62,549 H1380.00" stroke="#0369a1" stroke-width="2"/>
+<path d="M26,561 H1408" stroke="#e2e8f0"/>
+<text x="26" y="591" class="signal"><title>tb_alu_exhaustive.y[2]</title>tb_alu_exhaustive.y[2]</text>
+<text x="26" y="607" class="small">1 bit</text>
+<path d="M370.00,606 H525.38" stroke="#0369a1" stroke-width="2"/>
+<path d="M525.38,606 V578" stroke="#0369a1" stroke-width="2"/>
+<path d="M525.38,578 H680.77" stroke="#0369a1" stroke-width="2"/>
+<path d="M680.77,578 V606" stroke="#0369a1" stroke-width="2"/>
+<path d="M680.77,606 H913.85" stroke="#0369a1" stroke-width="2"/>
+<path d="M913.85,606 V578" stroke="#0369a1" stroke-width="2"/>
+<path d="M913.85,578 H991.54" stroke="#0369a1" stroke-width="2"/>
+<path d="M991.54,578 V606" stroke="#0369a1" stroke-width="2"/>
+<path d="M991.54,606 H1069.23" stroke="#0369a1" stroke-width="2"/>
+<path d="M1069.23,606 V578" stroke="#0369a1" stroke-width="2"/>
+<path d="M1069.23,578 H1224.62" stroke="#0369a1" stroke-width="2"/>
+<path d="M1224.62,578 V606" stroke="#0369a1" stroke-width="2"/>
+<path d="M1224.62,606 H1380.00" stroke="#0369a1" stroke-width="2"/>
+<path d="M26,618 H1408" stroke="#e2e8f0"/>
+<text x="26" y="648" class="signal"><title>tb_alu_exhaustive.y[1]</title>tb_alu_exhaustive.y[1]</text>
+<text x="26" y="664" class="small">1 bit</text>
+<path d="M370.00,663 H836.15" stroke="#0369a1" stroke-width="2"/>
+<path d="M836.15,663 V635" stroke="#0369a1" stroke-width="2"/>
+<path d="M836.15,635 H991.54" stroke="#0369a1" stroke-width="2"/>
+<path d="M991.54,635 V663" stroke="#0369a1" stroke-width="2"/>
+<path d="M991.54,663 H1069.23" stroke="#0369a1" stroke-width="2"/>
+<path d="M1069.23,663 V635" stroke="#0369a1" stroke-width="2"/>
+<path d="M1069.23,635 H1224.62" stroke="#0369a1" stroke-width="2"/>
+<path d="M1224.62,635 V663" stroke="#0369a1" stroke-width="2"/>
+<path d="M1224.62,663 H1380.00" stroke="#0369a1" stroke-width="2"/>
+<path d="M26,675 H1408" stroke="#e2e8f0"/>
+<text x="26" y="705" class="signal"><title>tb_alu_exhaustive.y[0]</title>tb_alu_exhaustive.y[0]</text>
+<text x="26" y="721" class="small">1 bit</text>
+<path d="M370.00,692 H525.38" stroke="#0369a1" stroke-width="2"/>
+<path d="M525.38,692 V720" stroke="#0369a1" stroke-width="2"/>
+<path d="M525.38,720 H603.08" stroke="#0369a1" stroke-width="2"/>
+<path d="M603.08,720 V692" stroke="#0369a1" stroke-width="2"/>
+<path d="M603.08,692 H758.46" stroke="#0369a1" stroke-width="2"/>
+<path d="M758.46,692 V720" stroke="#0369a1" stroke-width="2"/>
+<path d="M758.46,720 H1146.92" stroke="#0369a1" stroke-width="2"/>
+<path d="M1146.92,720 V692" stroke="#0369a1" stroke-width="2"/>
+<path d="M1146.92,692 H1224.62" stroke="#0369a1" stroke-width="2"/>
+<path d="M1224.62,692 V720" stroke="#0369a1" stroke-width="2"/>
+<path d="M1224.62,720 H1380.00" stroke="#0369a1" stroke-width="2"/>
+<path d="M26,732 H1408" stroke="#e2e8f0"/>
+<text x="26" y="762" class="signal"><title>tb_alu_exhaustive.carry</title>tb_alu_exhaustive.carry</text>
+<text x="26" y="778" class="small">1 bit</text>
+<path d="M370.00,777 H991.54" stroke="#0369a1" stroke-width="2"/>
+<path d="M991.54,777 V749" stroke="#0369a1" stroke-width="2"/>
+<path d="M991.54,749 H1146.92" stroke="#0369a1" stroke-width="2"/>
+<path d="M1146.92,749 V777" stroke="#0369a1" stroke-width="2"/>
+<path d="M1146.92,777 H1380.00" stroke="#0369a1" stroke-width="2"/>
+<path d="M26,789 H1408" stroke="#e2e8f0"/>
+<text x="26" y="819" class="signal"><title>tb_alu_exhaustive.zero</title>tb_alu_exhaustive.zero</text>
+<text x="26" y="835" class="small">1 bit</text>
+<path d="M370.00,834 H991.54" stroke="#0369a1" stroke-width="2"/>
+<path d="M991.54,834 V806" stroke="#0369a1" stroke-width="2"/>
+<path d="M991.54,806 H1069.23" stroke="#0369a1" stroke-width="2"/>
+<path d="M1069.23,806 V834" stroke="#0369a1" stroke-width="2"/>
+<path d="M1069.23,834 H1224.62" stroke="#0369a1" stroke-width="2"/>
+<path d="M1224.62,834 V806" stroke="#0369a1" stroke-width="2"/>
+<path d="M1224.62,806 H1302.31" stroke="#0369a1" stroke-width="2"/>
+<path d="M1302.31,806 V834" stroke="#0369a1" stroke-width="2"/>
+<path d="M1302.31,834 H1380.00" stroke="#0369a1" stroke-width="2"/>
+<path d="M26,846 H1408" stroke="#e2e8f0"/>
+<text x="26" y="893" class="small">Source: alu-directed.vcd | SHA-256: b660886494af3a9fe257945b6defa212294a25c79b38c321fb081a7fcc6460fd</text>
+<text x="26" y="914" class="small">A waveform is evidence of recorded signal values; it does not establish functional, protocol, or timing closure.</text>
+</svg>
